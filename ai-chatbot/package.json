@@ -1,0 +1,14 @@
+{
+  "name": "sadi-ai-business-chatbot",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Single-business AI website chatbot MVP using Cloudflare Workers and Gemini",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "typecheck": "node --check src/index.js && node --check public/chat-widget.js"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
